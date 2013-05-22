@@ -1,0 +1,7 @@
+parameters:
+#    compras.example.class: Detoditoonline\ComprasBundle\Example
+
+services:
+#    compras.example:
+#        class: %compras.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

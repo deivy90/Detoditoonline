@@ -1,0 +1,7 @@
+parameters:
+#    domicilio.example.class: Detoditoonline\DomicilioBundle\Example
+
+services:
+#    domicilio.example:
+#        class: %domicilio.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
