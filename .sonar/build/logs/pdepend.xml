@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics ahh="0.75" andc="0" calls="71" ccn="99" classes="31" cloc="247" clsa="0" clsc="31" fanout="31" files="31" functions="0" interfs="0" leafs="25" lloc="350" loc="1144" locExecutable="630" maxdit="2" ncloc="897" nom="94" nop="24" roots="6">
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\AcmeDemoBundle.php" classes="1" cloc="0" functions="0" lloc="2" loc="10" locExecutable="6" ncloc="10">
+    <class name="AcmeDemoBundle" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" impl="0" lloc="0" loc="3" locExecutable="0" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0"/>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Controller\DemoController.php" classes="1" cloc="15" functions="0" lloc="20" loc="58" locExecutable="32" ncloc="43">
+    <class name="DemoController" ca="0" cbo="2" ce="2" cis="3" cloc="14" cr="0.15" csz="3" dit="2" impl="0" lloc="11" loc="45" locExecutable="19" ncloc="31" noam="3" nocc="0" nom="3" noom="0" npm="3" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <method name="indexAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="helloAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="contactAction" ccn="3" cloc="2" lloc="9" loc="20" locExecutable="13" ncloc="18" npath="3"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Controller\SecuredController.php" classes="1" cloc="25" functions="0" lloc="17" loc="70" locExecutable="36" ncloc="45">
+    <class name="SecuredController" ca="0" cbo="1" ce="1" cis="5" cloc="22" cr="0.15" csz="5" dit="2" impl="0" lloc="6" loc="56" locExecutable="21" ncloc="34" noam="5" nocc="0" nom="5" noom="0" npm="5" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="6" wmci="6" wmcnp="6">
+      <method name="loginAction" ccn="2" cloc="0" lloc="4" loc="13" locExecutable="11" ncloc="13" npath="2"/>
+      <method name="securityCheckAction" ccn="1" cloc="1" lloc="0" loc="4" locExecutable="2" ncloc="3" npath="1"/>
+      <method name="logoutAction" ccn="1" cloc="1" lloc="0" loc="4" locExecutable="2" ncloc="3" npath="1"/>
+      <method name="helloAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="helloadminAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Controller\WelcomeController.php" classes="1" cloc="5" functions="0" lloc="4" loc="19" locExecutable="10" ncloc="14">
+    <class name="WelcomeController" ca="0" cbo="0" ce="0" cis="1" cloc="5" cr="0.15" csz="1" dit="2" impl="0" lloc="1" loc="12" locExecutable="3" ncloc="7" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="indexAction" ccn="1" cloc="5" lloc="1" loc="9" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\DependencyInjection\AcmeDemoExtension.php" classes="1" cloc="0" functions="0" lloc="10" loc="23" locExecutable="18" ncloc="23">
+    <class name="AcmeDemoExtension" ca="0" cbo="3" ce="3" cis="2" cloc="0" cr="0.15" csz="2" dit="2" impl="0" lloc="3" loc="13" locExecutable="7" ncloc="13" noam="2" nocc="0" nom="2" noom="0" npm="2" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <method name="load" ccn="1" cloc="0" lloc="2" loc="5" locExecutable="4" ncloc="5" npath="1"/>
+      <method name="getAlias" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\EventListener\ControllerListener.php" classes="1" cloc="0" functions="0" lloc="10" loc="25" locExecutable="19" ncloc="25">
+    <class name="ControllerListener" ca="0" cbo="3" ce="3" cis="2" cloc="0" cr="0.15" csz="3" dit="0" impl="0" lloc="3" loc="16" locExecutable="8" ncloc="16" noam="0" nocc="0" nom="2" noom="0" npm="2" rcr="0.15" vars="1" varsi="1" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <method name="__construct" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="onKernelController" ccn="2" cloc="0" lloc="2" loc="6" locExecutable="5" ncloc="6" npath="2"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Form\ContactType.php" classes="1" cloc="0" functions="0" lloc="8" loc="21" locExecutable="16" ncloc="21">
+    <class name="ContactType" ca="1" cbo="1" ce="1" cis="2" cloc="0" cr="0.15" csz="2" dit="2" impl="0" lloc="3" loc="13" locExecutable="7" ncloc="13" noam="2" nocc="0" nom="2" noom="0" npm="2" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <method name="buildForm" ccn="1" cloc="0" lloc="2" loc="5" locExecutable="4" ncloc="5" npath="1"/>
+      <method name="getName" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Tests\Controller\DemoControllerTest.php" classes="1" cloc="0" functions="0" lloc="6" loc="18" locExecutable="12" ncloc="18">
+    <class name="DemoControllerTest" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="3" loc="11" locExecutable="5" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="testIndex" ccn="1" cloc="0" lloc="3" loc="8" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Acme\DemoBundle\Twig\Extension\DemoExtension.php" classes="1" cloc="9" functions="0" lloc="29" loc="81" locExecutable="56" ncloc="72">
+    <class name="DemoExtension" ca="1" cbo="4" ce="4" cis="5" cloc="9" cr="0.15" csz="9" dit="2" impl="0" lloc="16" loc="72" locExecutable="39" ncloc="63" noam="7" nocc="0" nom="7" noom="0" npm="5" rcr="0.2775" vars="2" varsi="2" varsnp="0" wmc="8" wmci="8" wmcnp="5">
+      <method name="__construct" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="setController" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="getFunctions" ccn="1" cloc="0" lloc="1" loc="6" locExecutable="5" ncloc="6" npath="1"/>
+      <method name="getCode" ccn="1" cloc="1" lloc="4" loc="16" locExecutable="12" ncloc="15" npath="1"/>
+      <method name="getControllerCode" ccn="2" cloc="0" lloc="7" loc="14" locExecutable="10" ncloc="14" npath="2"/>
+      <method name="getTemplateCode" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+      <method name="getName" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\ClienteBundle.php" classes="1" cloc="0" functions="0" lloc="2" loc="10" locExecutable="6" ncloc="10">
+    <class name="ClienteBundle" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" impl="0" lloc="0" loc="3" locExecutable="0" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0"/>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\Controller\DefaultController.php" classes="1" cloc="0" functions="0" lloc="5" loc="15" locExecutable="11" ncloc="15">
+    <class name="DefaultController" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="1" loc="7" locExecutable="3" ncloc="7" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="registrar_clienteAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\DependencyInjection\ClienteExtension.php" classes="1" cloc="8" functions="0" lloc="10" loc="29" locExecutable="16" ncloc="21">
+    <class name="ClienteExtension" ca="0" cbo="4" ce="4" cis="1" cloc="3" cr="0.15" csz="1" dit="2" impl="0" lloc="4" loc="14" locExecutable="6" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="load" ccn="1" cloc="0" lloc="4" loc="8" locExecutable="6" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\DependencyInjection\Configuration.php" classes="1" cloc="11" functions="0" lloc="7" loc="30" locExecutable="13" ncloc="19">
+    <class name="Configuration" ca="1" cbo="1" ce="1" cis="1" cloc="6" cr="0.15" csz="1" dit="0" impl="1" lloc="3" loc="17" locExecutable="5" ncloc="11" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.1925" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="getConfigTreeBuilder" ccn="1" cloc="3" lloc="3" loc="11" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\Entity\Cliente.php" classes="1" cloc="21" functions="0" lloc="31" loc="89" locExecutable="48" ncloc="68">
+    <class name="Cliente" ca="0" cbo="0" ce="0" cis="12" cloc="9" cr="0.15" csz="18" dit="0" impl="0" lloc="11" loc="69" locExecutable="35" ncloc="60" noam="0" nocc="0" nom="12" noom="0" npm="12" rcr="0.15" vars="6" varsi="6" varsnp="0" wmc="12" wmci="12" wmcnp="12">
+      <method name="Cliente" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_cliente" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getCedula" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setCedula" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getBarrio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setBarrio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getDireccion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setDireccion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getFecha_nacimiento" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setFecha_nacimiento" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\Form\ClienteType.php" classes="1" cloc="10" functions="0" lloc="10" loc="43" locExecutable="21" ncloc="33">
+    <class name="ClienteType" ca="0" cbo="2" ce="2" cis="3" cloc="1" cr="0.15" csz="3" dit="2" impl="0" lloc="3" loc="20" locExecutable="12" ncloc="19" noam="3" nocc="0" nom="3" noom="0" npm="3" rcr="0.21375" vars="0" varsi="0" varsnp="0" wmc="3" wmci="3" wmcnp="3">
+      <method name="buildForm" ccn="1" cloc="0" lloc="1" loc="7" locExecutable="6" ncloc="7" npath="1"/>
+      <method name="setDefaultOptions" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getName" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ClienteBundle\Tests\Controller\DefaultControllerTest.php" classes="1" cloc="0" functions="0" lloc="6" loc="18" locExecutable="12" ncloc="18">
+    <class name="DefaultControllerTest" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="3" loc="11" locExecutable="5" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="testIndex" ccn="1" cloc="0" lloc="3" loc="8" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\ComprasBundle.php" classes="1" cloc="0" functions="0" lloc="2" loc="10" locExecutable="6" ncloc="10">
+    <class name="ComprasBundle" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" impl="0" lloc="0" loc="3" locExecutable="0" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0"/>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Controller\DefaultController.php" classes="1" cloc="0" functions="0" lloc="4" loc="14" locExecutable="10" ncloc="14">
+    <class name="DefaultController" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="1" loc="7" locExecutable="3" ncloc="7" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="indexAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\DependencyInjection\ComprasExtension.php" classes="1" cloc="8" functions="0" lloc="10" loc="29" locExecutable="16" ncloc="21">
+    <class name="ComprasExtension" ca="0" cbo="4" ce="4" cis="1" cloc="3" cr="0.15" csz="1" dit="2" impl="0" lloc="4" loc="14" locExecutable="6" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="load" ccn="1" cloc="0" lloc="4" loc="8" locExecutable="6" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\DependencyInjection\Configuration.php" classes="1" cloc="11" functions="0" lloc="7" loc="30" locExecutable="13" ncloc="19">
+    <class name="Configuration" ca="1" cbo="1" ce="1" cis="1" cloc="6" cr="0.15" csz="1" dit="0" impl="1" lloc="3" loc="17" locExecutable="5" ncloc="11" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.1925" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="getConfigTreeBuilder" ccn="1" cloc="3" lloc="3" loc="11" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Entity\Carrito.php" classes="1" cloc="18" functions="0" lloc="11" loc="54" locExecutable="20" ncloc="36">
+    <class name="Carrito" ca="0" cbo="0" ce="0" cis="4" cloc="6" cr="0.15" csz="6" dit="0" impl="0" lloc="3" loc="32" locExecutable="11" ncloc="26" noam="0" nocc="0" nom="4" noom="0" npm="4" rcr="0.15" vars="2" varsi="2" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <method name="Carrito" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_carrito" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getFecha_creacion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setFecha_creacion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Entity\Compra.php" classes="1" cloc="22" functions="0" lloc="21" loc="74" locExecutable="34" ncloc="52">
+    <class name="Compra" ca="0" cbo="0" ce="0" cis="8" cloc="10" cr="0.15" csz="12" dit="0" impl="0" lloc="7" loc="52" locExecutable="23" ncloc="42" noam="0" nocc="0" nom="8" noom="0" npm="8" rcr="0.15" vars="4" varsi="4" varsnp="0" wmc="8" wmci="8" wmcnp="8">
+      <method name="Compra" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_compra" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getId_producto" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setId_producto" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getId_carrito" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setId_carrito" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getCantidad" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setCantidad" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Entity\Producto.php" classes="1" cloc="22" functions="0" lloc="31" loc="92" locExecutable="48" ncloc="70">
+    <class name="Producto" ca="0" cbo="0" ce="0" cis="12" cloc="10" cr="0.15" csz="18" dit="0" impl="0" lloc="11" loc="70" locExecutable="35" ncloc="60" noam="0" nocc="0" nom="12" noom="0" npm="12" rcr="0.15" vars="6" varsi="6" varsnp="0" wmc="12" wmci="12" wmcnp="12">
+      <method name="Producto" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_producto" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getCodigo" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setCodigo" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getDescripcion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setDescripcion" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getPrecio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setPrecio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getCantidad_disponible" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setCantidad_disponible" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Entity\Factura.php" classes="1" cloc="21" functions="0" lloc="26" loc="81" locExecutable="41" ncloc="60">
+    <class name="Factura" ca="0" cbo="0" ce="0" cis="10" cloc="9" cr="0.15" csz="15" dit="0" impl="0" lloc="9" loc="59" locExecutable="29" ncloc="50" noam="0" nocc="0" nom="10" noom="0" npm="10" rcr="0.15" vars="5" varsi="5" varsnp="0" wmc="10" wmci="10" wmcnp="10">
+      <method name="Factura" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_factura" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getId_cliente" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setId_cliente" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getId_domicilio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setId_domicilio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getId_compra" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setId_compra" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getTotal" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setTotal" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\ComprasBundle\Tests\Controller\DefaultControllerTest.php" classes="1" cloc="0" functions="0" lloc="6" loc="18" locExecutable="12" ncloc="18">
+    <class name="DefaultControllerTest" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="3" loc="11" locExecutable="5" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="testIndex" ccn="1" cloc="0" lloc="3" loc="8" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\Controller\DefaultController.php" classes="1" cloc="0" functions="0" lloc="4" loc="14" locExecutable="10" ncloc="14">
+    <class name="DefaultController" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="1" loc="7" locExecutable="3" ncloc="7" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.17125" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="indexAction" ccn="1" cloc="0" lloc="1" loc="4" locExecutable="3" ncloc="4" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\DependencyInjection\Configuration.php" classes="1" cloc="11" functions="0" lloc="7" loc="30" locExecutable="13" ncloc="19">
+    <class name="Configuration" ca="1" cbo="1" ce="1" cis="1" cloc="6" cr="0.15" csz="1" dit="0" impl="1" lloc="3" loc="17" locExecutable="5" ncloc="11" noam="0" nocc="0" nom="1" noom="0" npm="1" rcr="0.1925" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="getConfigTreeBuilder" ccn="1" cloc="3" lloc="3" loc="11" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\DependencyInjection\DomicilioExtension.php" classes="1" cloc="8" functions="0" lloc="10" loc="29" locExecutable="16" ncloc="21">
+    <class name="DomicilioExtension" ca="0" cbo="4" ce="4" cis="1" cloc="3" cr="0.15" csz="1" dit="2" impl="0" lloc="4" loc="14" locExecutable="6" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="load" ccn="1" cloc="0" lloc="4" loc="8" locExecutable="6" ncloc="8" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\DomicilioBundle.php" classes="1" cloc="0" functions="0" lloc="2" loc="10" locExecutable="6" ncloc="10">
+    <class name="DomicilioBundle" ca="0" cbo="0" ce="0" cis="0" cloc="0" cr="0.15" csz="0" dit="2" impl="0" lloc="0" loc="3" locExecutable="0" ncloc="3" noam="0" nocc="0" nom="0" noom="0" npm="0" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0"/>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\Entity\Domicilio.php" classes="1" cloc="22" functions="0" lloc="26" loc="82" locExecutable="41" ncloc="60">
+    <class name="Domicilio" ca="0" cbo="0" ce="0" cis="10" cloc="10" cr="0.15" csz="15" dit="0" impl="0" lloc="9" loc="61" locExecutable="29" ncloc="51" noam="0" nocc="0" nom="10" noom="0" npm="10" rcr="0.15" vars="5" varsi="5" varsnp="0" wmc="10" wmci="10" wmcnp="10">
+      <method name="Domicilio" ccn="1" cloc="0" lloc="0" loc="4" locExecutable="2" ncloc="4" npath="1"/>
+      <method name="getId_domicilio" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setNombre" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getApellido" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setApellido" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getCedula" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setCedula" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="getTipo" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+      <method name="setTipo" ccn="1" cloc="0" lloc="1" loc="3" locExecutable="3" ncloc="3" npath="1"/>
+    </class>
+  </file>
+  <file name="C:\wamp\www\Detoditoonline\src\Detoditoonline\DomicilioBundle\Tests\Controller\DefaultControllerTest.php" classes="1" cloc="0" functions="0" lloc="6" loc="18" locExecutable="12" ncloc="18">
+    <class name="DefaultControllerTest" ca="0" cbo="0" ce="0" cis="1" cloc="0" cr="0.15" csz="1" dit="2" impl="0" lloc="3" loc="11" locExecutable="5" ncloc="11" noam="1" nocc="0" nom="1" noom="0" npm="1" rcr="0.181875" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <method name="testIndex" ccn="1" cloc="0" lloc="3" loc="8" locExecutable="5" ncloc="8" npath="1"/>
+    </class>
+  </file>
+</metrics>

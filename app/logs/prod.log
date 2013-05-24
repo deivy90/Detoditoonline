@@ -33,3 +33,6 @@
 [2013-05-22 00:55:18] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
 [2013-05-22 00:55:19] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
 [2013-05-22 00:55:19] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
+[2013-05-22 16:21:41] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
+[2013-05-22 16:22:53] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
+[2013-05-22 16:22:56] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at C:\wamp\www\Detoditoonline\app\cache\prod\classes.php line 5244 [] []
